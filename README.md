@@ -1,4 +1,4 @@
-# 🚀 End-to-End Sales Analytics Pipeline: Spark to Power BI
+#  End-to-End Sales Analytics Pipeline: Spark to Power BI
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=for-the-badge&logo=apachespark&logoColor=#E35A16)
@@ -8,17 +8,17 @@
 
 > **Live Dashboard Preview:** [Link to your hosted PowerBI or a short GIF showcasing the dashboard]
 
-## 🎯 Project Overview
+##  Project Overview
 This project is an automated, end-to-end data pipeline that ingests raw transactional data, processes it at scale, models it for business intelligence, and serves it through an interactive dashboard. Designed to simulate a production-grade retail analytics environment, it transforms unstructured logs into actionable revenue insights.
 
-### 🏆 Key Results
+###  Key Results
 * **Performance:** Spark processed the full dataset **8× faster** than the initial pandas baseline, eliminating out-of-memory errors.
 * **Data Quality:** Implemented dbt tests that caught and filtered out 100% of orphaned records and null primary keys before they reached the BI layer.
 * **Automation:** Reduced manual data refresh time from hours to zero via automated orchestration.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 <p align="center">
   <img src="https://via.placeholder.com/800x300/eeeeee/333333?text=Excalidraw:+Raw+Data+->+Spark+->+Snowflake+->+dbt+->+Power+BI" alt="Architecture Diagram: Raw Data to Spark to Snowflake to dbt to Power BI">
@@ -32,7 +32,7 @@ This project is an automated, end-to-end data pipeline that ingests raw transact
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 * **Language:** Python, SQL
 * **Processing:** Apache Spark (PySpark)
 * **Warehouse:** Snowflake
@@ -42,7 +42,7 @@ This project is an automated, end-to-end data pipeline that ingests raw transact
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 ├── data/                   # Sample raw datasets (ignored in git)
