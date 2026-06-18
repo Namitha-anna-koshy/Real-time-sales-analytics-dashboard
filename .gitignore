@@ -1,1 +1,8 @@
 .env
+data/processed_sales/
+
+*.parquet
+
+.env
+
+__pycache__/
