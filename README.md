@@ -87,16 +87,6 @@ graph LR
 
 ---
 
-##  Repository Structure
 
-```text
-├── data/                   # Sample raw datasets (ignored in git)
-├── notebooks/              # Jupyter notebooks for initial EDA and Spark prototyping
-├── src/                    # Python scripts for Spark jobs and API ingestion
-├── dbt_project/            # dbt models, schema.yml, and tests
-│   ├── models/
-│   │   ├── staging/        # Base views cleaning Snowflake raw tables
-│   │   └── marts/          # Fact and dimension tables for BI
-├── images/                 # Architecture diagrams and screenshots
 ├── requirements.txt        # Python dependencies
 └── README.md
