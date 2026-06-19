@@ -88,5 +88,3 @@ graph LR
 ---
 
 
-├── requirements.txt        # Python dependencies
-└── README.md
