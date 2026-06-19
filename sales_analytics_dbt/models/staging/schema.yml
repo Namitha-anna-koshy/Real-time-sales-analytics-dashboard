@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_sales
+    columns:
+      - name: sales_id
+        tests:
+          - unique
+          - not_null
+
+      - name: order_id
+        tests:
+          - not_null
+
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: fact_sales
+    columns:
+      - name: revenue
+        tests:
+          - not_null
