@@ -1,5 +1,4 @@
 WITH sales_data AS (
-
     SELECT
 
         *,
@@ -12,7 +11,6 @@ WITH sales_data AS (
 )
 
 SELECT
-
     MD5(
         CONCAT(
             order_id,
