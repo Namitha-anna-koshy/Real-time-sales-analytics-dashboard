@@ -1,4 +1,4 @@
-#  End-to-End Sales Analytics Pipeline: Spark to Power BI
+#  End-to-End Sales Analytics
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=for-the-badge&logo=apachespark&logoColor=#E35A16)
