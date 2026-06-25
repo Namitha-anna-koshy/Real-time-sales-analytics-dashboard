@@ -6,7 +6,9 @@
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-> **Live Dashboard Preview:** [Link to your hosted PowerBI or a short GIF showcasing the dashboard]
+> ## Dashboard Preview
+
+![Sales Dashboard](assets/dashboard.png)
 
 ##  Project Overview
 This project is an automated, end-to-end data pipeline that ingests raw transactional data, processes it at scale, models it for business intelligence, and serves it through an interactive dashboard. Designed to simulate a production-grade retail analytics environment, it transforms unstructured logs into actionable revenue insights.
